@@ -1,5 +1,5 @@
 {% set name = "wat-inspector" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wat_inspector-{{ version }}.tar.gz
-  sha256: 4262ecdf1fc2ea8e5c35ae65ca1ae18b37d30061936e8bd2f4d6b4020cc05ff3
+  sha256: 4792406484a8d0fe4451bb1c566fbcdaf6355d7faddd307b29ee2abe7a5aa895
 
 build:
   noarch: python
